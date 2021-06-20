@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  height: 7.5vh;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #45484d;
+  color: #45484de3;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+#header-left-container {
+  width: 125px;
+  margin-left: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#header-right-container {
+  width: 275px;
+  margin-right: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#signin-button {
+  color: rgb(245, 245, 245);
+  background-color: #4287f7;
+  border-radius: 4px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+#app-icon {
+  height: 25px;
+  color: #5f6368;
+}
+
+/* #5f6368 */
+
+#main-container {
+  background-color: white;
+  height: 85vh;
+  padding-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#google-logo {
+  height: 15rem;
+}
+
+#search-icon {
+  height: 20px;
+  color: #45484d88;
+  fill: #45484d88;
+}
+
+#mic-icon {
+  height: 20px;
+}
+
+button {
+  color: #45484dad;
+  border-radius: 4px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 0;
+  cursor: pointer;
+}
+
+#search-button {
+  margin-right: 10px;
+}
+
+#google-searchbar-container {
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 25px;
+  width: 35rem;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 30px;
+}
+
+#google-searchbar {
+  border: 1px solid rgb(220, 220, 220);
+  border-left: 0;
+  border-right: 0;
+  height: 50px;
+  width: 100%;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+#google-searchbar:focus {
+  padding-left: 10px;
+}
+
+footer {
+  height: 7.5vh;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #45484d88;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footer-right-container {
+  width: 200px;
+  margin-right: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#footer-left-container {
+  width: 350px;
+  margin-left: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
